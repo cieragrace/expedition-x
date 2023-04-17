@@ -1,10 +1,12 @@
 import './HomePage.css'
 import LoginForm from '../LoginForm/LoginForm'
 
-const HomePage = () => {
+const HomePage = ({getAllData}) => {
   return(
     <div className='homepage-container'>
-      <LoginForm />
+      <LoginForm 
+        getAllData={getAllData}
+        />
       <section className="grid-box one"></section>
     <section className="grid-box two"></section>
     <section className="grid-box three"></section>

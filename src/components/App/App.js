@@ -23,7 +23,9 @@ function App() {
 
   return (
     <div className='app-container'>
-      <HomePage />
+      <HomePage 
+      getAllData={getAllData}
+      />
     </div>
   );
 }

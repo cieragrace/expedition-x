@@ -1,7 +1,7 @@
 import './LoginForm.css'
 import { Link } from 'react-router-dom'
 
-const LoginForm = () => {
+const LoginForm = ({getAllData}) => {
   return(
     <form className='form-container'>
       <h1 className='h1'>Please Enter Your Log In Info</h1>
@@ -17,7 +17,9 @@ const LoginForm = () => {
         id="password" 
         type="text" 
         placeholder="password" />
-      <Link to='/profile/:userID' className="login-button" id="loginButton">All Set</Link>
+      <div className='login-button'>
+        <Link to='/profile/:userID' className="userpage-link" id="loginButton">All Set</Link>
+      </div>
     </form>
   )
 }
