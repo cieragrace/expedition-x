@@ -1,0 +1,7 @@
+.destinations-container {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+ }
