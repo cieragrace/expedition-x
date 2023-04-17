@@ -1,0 +1,28 @@
+.form-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 10%;
+  font-size: 50px;
+  color: #458D95;
+}
+
+input {
+  margin: 0px;
+  height: 30px;
+  width: 50%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+button {
+  margin-top: 0px;
+}
