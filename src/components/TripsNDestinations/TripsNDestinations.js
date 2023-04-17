@@ -5,3 +5,5 @@ const TripsNDestinations = () => {
     <></>
   )
 }
+
+export default TripsNDestinations
